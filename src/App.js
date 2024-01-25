@@ -180,7 +180,7 @@ class App extends Component {
           {/* A <Routes> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
           <Routes>
-            <Route path="/" element={<Work projects={this.state.projects} switchPage={this.switchPage.bind(this)} currentPage={this.state.currentPage}/>}/>
+            <Route path="/design" element={<Work projects={this.state.projects} switchPage={this.switchPage.bind(this)} currentPage={this.state.currentPage}/>}/>
             <Route path="/about" element={<AboutMe gamePosts={this.state.gamePosts} switchPage={this.switchPage.bind(this)} currentPage={this.state.currentPage}/>}/>
             <Route path="/games" element={<Games gamePosts={this.state.gamePosts} switchPage={this.switchPage.bind(this)} currentPage={this.state.currentPage}/>}/>
             <Route path="/archive" element={<Archive archivedProjects={this.state.archivedProjects} switchPage={this.switchPage.bind(this)} currentPage={this.state.currentPage}/>}/>

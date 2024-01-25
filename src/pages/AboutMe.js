@@ -67,9 +67,6 @@ class AboutMe extends Component {
                                 <a href='https://www.linkedin.com/in/adrian-ma8' target='_blank'>
                                     <img src={process.env.PUBLIC_URL + "/assets/icons/linkedin_icon.svg"} alt='linkedin icon'></img>
                                 </a>
-                                <a href='https://www.superjumpmagazine.com/author/adrianma/' target='_blank'>
-                                    <img src={process.env.PUBLIC_URL + "/assets/icons/blog_icon.svg"} alt='medium icon'></img>
-                                </a>
                             </div>
                         </div>
                         

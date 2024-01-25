@@ -25,18 +25,12 @@ class Footer extends Component {
                                 <a href='https://www.linkedin.com/in/adrian-ma8' target='_blank'>
                                     <img src={process.env.PUBLIC_URL + "/assets/icons/linkedin_icon.svg"} alt='linkedin icon'></img>
                                 </a>
-                                <a href='https://www.superjumpmagazine.com/author/adrianma/' target='_blank'>
-                                    <img src={process.env.PUBLIC_URL + "/assets/icons/blog_icon.svg"} alt='medium icon'></img>
-                                </a>
                             </div>
                         </div>
                         <div className='footerInternalLinks'>
-                            <Link to='/'>WORK</Link>
+                            <Link to='/design'>WORK</Link>
                             <Link to='/about'>ABOUT</Link>
-                            <a target='_blank' href='https://www.superjumpmagazine.com/author/adrianma/'>BLOG</a>
-                            <a target='_blank' href='https://docs.google.com/document/d/1s1sjBssLC0LS-1ClqeaMErWVwl9F-5AlFyeqleDR2hQ/edit?usp=sharing'>RESUME</a>
-                            <Link to='/games'>REVIEWS</Link>
-                            <Link to='/archive'>ARCHIVE</Link>
+                            <a target='_blank' href='https://docs.google.com/document/d/1FQt-n1FYVZKXt-YJQV6cIDYHBem476KN81OlmvNXNpY/edit?usp=sharing'>RESUME</a>
                         </div>
                     </div>
                     <div className='footerCopyrightContainer'>
