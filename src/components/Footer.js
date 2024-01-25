@@ -13,8 +13,7 @@ class Footer extends Component {
                                 amm28y@gmail.com
                             </div>
                             <div className='footerDescription'>
-                                Contact me for jobs, opportunities for collaboration, design discussions, 
-                                or just to talk about games!
+                                Contact me for jobs, opportunities for collaboration, or just to talk about design!
                             </div>
                             <div className='footerExternalLinks'>
                                 <a href='mailto:amm28y@gmail.com' target='_blank'>

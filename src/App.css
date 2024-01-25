@@ -260,7 +260,7 @@ a.currentNavButton.dark {
   justify-content: flex-start;
   align-items: flex-end;
   width: auto;
-  margin: 80px 120px 40px 120px;
+  margin: 30px 120px 40px 120px;
   gap: 30px;
   margin-bottom: 100px;
 }
@@ -628,8 +628,10 @@ select option {
   align-items: center;
   width: 75%;
   margin-bottom: 0px;
+  padding-top: 60px;
   color: #DEDEDE;
   font-weight: 300;
+  border-top: 2px solid white;
 }
 
 .aboutWebsite b {
